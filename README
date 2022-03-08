@@ -1,0 +1,12 @@
+This repository contains an analysis of rainfall through time in the cities of Oxford, UK, and Melbourne, Australia.
+
+To run this analysis use the following commands:
+
+```
+Rscript src/combine-data.R
+
+Rscript src/make-plot.R
+
+```
+
+The input data is in `data` and the results, including output data, are in `out`.
